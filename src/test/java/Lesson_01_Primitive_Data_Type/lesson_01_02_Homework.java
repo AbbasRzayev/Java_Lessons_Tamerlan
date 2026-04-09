@@ -22,6 +22,23 @@ public class lesson_01_02_Homework {
         //Ekrana çap
         //System.out.println("Qiymət: " + qiymet);
 
+        //Task həlli
+        double mehsulun_qiymeti = 15.75;
+        System.out.println(" Məhsulun qiyməti " + mehsulun_qiymeti);
+        int mehsulun_sayi = 250;
+        short mehsulun_sayi2 = 250;
+        System.out.println("Məhsulun sayi " + mehsulun_sayi);
+        System.out.println("Məhsulun sayi 2 " + mehsulun_sayi2);
+        boolean mehsulun_movcudlugu = true;
+        System.out.println("Məhsulun movcudlugu " + mehsulun_movcudlugu);
+        char ilk_herf = 'A';
+        System.out.println("Ilk herf " + ilk_herf);
+        long satis_miqdari = 9999999999l;
+        System.out.println("Satis miqdari " + satis_miqdari);
+        float endirim = 12.5f;
+        System.out.println("Endirim " + endirim);
+
+
 
 
     }
