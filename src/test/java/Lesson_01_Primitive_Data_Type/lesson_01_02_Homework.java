@@ -16,6 +16,7 @@ public class lesson_01_02_Homework {
         // 5. Ümumi satış miqdarı: 9999999999
         // 6. Endirim faizi: 12.5
 
+
         //Nümunə:
         //double qiymet = 19.22;
         //Ekrana çap
