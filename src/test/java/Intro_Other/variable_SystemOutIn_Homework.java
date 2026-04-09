@@ -35,7 +35,6 @@ public class variable_SystemOutIn_Homework {
         Scanner dogum = new Scanner(System.in);
         String dogum_cavab = dogum.nextLine();
         System.out.println(ad_cavab + soyad_cavab + yas_cavab + dogum_cavab);
-        System.out.println(ad_cavab + soyad_cavab + yas_cavab + dogum_cavab);git
 
         //Task 2 həlli
         System.out.println(" Ilk ədədi daxil edin: ");
