@@ -37,9 +37,5 @@ public class lesson_01_02_Homework {
         System.out.println("Satis miqdari " + satis_miqdari);
         float endirim = 12.5f;
         System.out.println("Endirim " + endirim);
-
-
-
-
     }
 }

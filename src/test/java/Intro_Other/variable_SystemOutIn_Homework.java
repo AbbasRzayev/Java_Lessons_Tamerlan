@@ -46,6 +46,8 @@ public class variable_SystemOutIn_Homework {
         int cem = birinci_eded_cavab + ikinci_eded_cavab;
         System.out.println(cem);
 
+        int a = 2;
+
 
     }
 }
