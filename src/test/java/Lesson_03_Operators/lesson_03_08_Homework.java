@@ -25,28 +25,24 @@ public class lesson_03_08_Homework {
         int qazancHesabla= mehsulQiymeti * qazanc/100;
         System.out.println(" Qazanc hesabı: " + qazancHesabla);
 
-        int yekunQiymet=mehsulQiymeti+endirimFaizi+qazanc; // (mehsulunQiymet - endirimFaizi + qazanc)
+        int yekunQiymet= mehsulQiymeti - endirimFaizi + qazanc; // (mehsulunQiymet - endirimFaizi + qazanc)
         System.out.println(" Yekun Qiymət: " + yekunQiymet);
 
         int ucEdedQiymet=yekunQiymet*adet;
         System.out.println(" Üç ədəd üçün ümumi məbləğ: " + ucEdedQiymet);
 
-        double tamBolunme=120%7;
-
+//        double tamBolunme=120%7;
         //int qaliq = 120 % 7;   // 1
         // qaliq 0-dırsa tam bölünür, deyilsə bölünmürgit
         //System.out.println("Qalıq: " + qaliq);              // 1
         //System.out.println("Tam bölünür: " + (qaliq == 0)); // false
 
-
-        System.out.println(" Tam Bolunme: " + tamBolunme);
-        int tamBolunme=120%7;
-        boolean cavab = tamBolunme==0;
+//        System.out.println(" Tam Bolunme: " + tamBolunme);
+        int tamBolunme = 120 % 7;
+        boolean cavab = tamBolunme == 0;
         System.out.println(" Tam Bolunme: " + cavab);
         System.out.print("---------------------------------");
         System.out.println("\nEndirim miqdarı: " + endirimMigdari + "\n Qazanc: " + qazancHesabla + "\n Yekun Qiymət: " + yekunQiymet + ("\n Üç ədəd üçün ümumi məbləğ: " + ucEdedQiymet + "\n Tam Bolunme: " + cavab ));
-
-
 
         System.out.println("\n ----- Tapşırıq 1 cavabı -----");
 //        2.Comparison
@@ -106,9 +102,6 @@ public class lesson_03_08_Homework {
         // 5. endirimliQiymet qiymet-den az VE ya barbeberdir?
         boolean endirimliQiymetVeya= endirimliQiymet <qiymet || endirimliQiymet==qiymet;
         System.out.println(" Endirimli qiymət qiyətdən az vəya bərabərdir mi?: " + endirimliQiymetVeya);         // ?
-
-
-
 
 //        3.Logical
         //Tapshiriq - 1
