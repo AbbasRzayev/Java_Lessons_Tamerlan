@@ -17,6 +17,19 @@ public class lesson_03_08_Homework {
         // 5. 120 tam bolunurmu 7-ye? (qaliq operator ile yoxla)
         // Hamısını ekrana yaz
 
+        //Arifmetik tapşırığın cavabı
+        int endirimMigdari= mehsulQiymeti*endirimFaizi/100;
+        System.out.println(" Endirim miqdarı: " + endirimMigdari);
+        int qazancHesabla=mehsulQiymeti*qazanc/100;
+        System.out.println(" Qazanc hesabı: " + qazancHesabla);
+        int yekunQiymet=mehsulQiymeti+endirimFaizi+qazanc;
+        System.out.println(" Yekun Qiymət: " + yekunQiymet);
+        int ucEdedQiymet=yekunQiymet*adet;
+        System.out.println(" Üç ədəd üçün ümumi məbləğ: " + ucEdedQiymet);
+        double tamBolunme=120%7;
+        System.out.println(" Tam Bolunme: " + tamBolunme);
+        System.out.print("---------------------------------");
+        System.out.println("\n Endirim miqdarı: " + endirimMigdari + "\n Qazanc: " + qazancHesabla + "\n Yekun Qiymət: " + yekunQiymet + ("\n Üç ədəd üçün ümumi məbləğ: " + ucEdedQiymet + "\n Tam Bolunme: " + tamBolunme ));
 
 
 
@@ -34,6 +47,22 @@ public class lesson_03_08_Homework {
         // 4. iki balin biri-birine berbaberliyi
         // 5. iki balin ferqliliyi
         // Hamısını ekrana yaz
+
+        //1 tapşırığın cavabı
+        boolean muqayiseIkiTelebe = bal1 > bal2;
+        System.out.println(" Bal 1 Bal 2-dən böyükdür mü? " + muqayiseIkiTelebe);
+        boolean birinciKecidMuqayise = bal1 >= kecidBali;
+        System.out.println("Bal 1 keçid balından böyük vəya bərabərdir mi? " + birinciKecidMuqayise);
+        boolean ikinciKecidMuqayise = kecidBali > bal2;
+        System.out.println("Bal 2 keçid balından böyükdür mü? " + ikinciKecidMuqayise);
+        boolean ikiBalBeraber = bal1 == bal2;
+        System.out.println("İki bal bir-birinə bərabərdir mi? " + ikiBalBeraber);
+        boolean ikiBalFergli=bal1 != bal2;
+        System.out.println("İki bal fərqlidir mi? " + ikiBalFergli);
+        System.out.println("------------------------");
+        System.out.println("\n 1. Bal 1 Bal 2-dən böyükdür mü? " + muqayiseIkiTelebe  + "\n 2. Bal 1 keçid balından böyük vəya bərabərdir mi? " + birinciKecidMuqayise + " \n 3. Bal 2 keçid balından böyükdür mü? " + ikinciKecidMuqayise + "\n 4. İki bal bir-birinə bərabərdir mi? " + ikiBalBeraber + "\n 5. İki bal fərqlidir mi? " + ikiBalFergli);
+
+
 
         //Tapshiriq - 2
         int maas = 5000;
