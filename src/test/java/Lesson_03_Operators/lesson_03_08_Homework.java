@@ -4,6 +4,7 @@ public class lesson_03_08_Homework {
     public static void main(String[] args) {
 
 //        1.ArifmetikTest:
+        System.out.println("----- Arifmetik tapşırığın cavabı -----");
 
         int mehsulQiymeti = 120;
         int endirimFaizi = 20;
@@ -26,13 +27,15 @@ public class lesson_03_08_Homework {
         System.out.println(" Yekun Qiymət: " + yekunQiymet);
         int ucEdedQiymet=yekunQiymet*adet;
         System.out.println(" Üç ədəd üçün ümumi məbləğ: " + ucEdedQiymet);
-        double tamBolunme=120%7;
-        System.out.println(" Tam Bolunme: " + tamBolunme);
+        int tamBolunme=120%7;
+        boolean cavab = tamBolunme==0;
+        System.out.println(" Tam Bolunme: " + cavab);
         System.out.print("---------------------------------");
-        System.out.println("\n Endirim miqdarı: " + endirimMigdari + "\n Qazanc: " + qazancHesabla + "\n Yekun Qiymət: " + yekunQiymet + ("\n Üç ədəd üçün ümumi məbləğ: " + ucEdedQiymet + "\n Tam Bolunme: " + tamBolunme ));
+        System.out.println("\nEndirim miqdarı: " + endirimMigdari + "\n Qazanc: " + qazancHesabla + "\n Yekun Qiymət: " + yekunQiymet + ("\n Üç ədəd üçün ümumi məbləğ: " + ucEdedQiymet + "\n Tam Bolunme: " + cavab ));
 
 
 
+        System.out.println("\n ----- Tapşırıq 1 cavabı -----");
 //        2.Comparison
 //        Tapshiriq - 1
 //        İki tələbənin balını müqayisə et:
@@ -60,10 +63,10 @@ public class lesson_03_08_Homework {
         boolean ikiBalFergli=bal1 != bal2;
         System.out.println("İki bal fərqlidir mi? " + ikiBalFergli);
         System.out.println("------------------------");
-        System.out.println("\n 1. Bal 1 Bal 2-dən böyükdür mü? " + muqayiseIkiTelebe  + "\n 2. Bal 1 keçid balından böyük vəya bərabərdir mi? " + birinciKecidMuqayise + " \n 3. Bal 2 keçid balından böyükdür mü? " + ikinciKecidMuqayise + "\n 4. İki bal bir-birinə bərabərdir mi? " + ikiBalBeraber + "\n 5. İki bal fərqlidir mi? " + ikiBalFergli);
+        System.out.println("\n1. Bal 1 Bal 2-dən böyükdür mü? " + muqayiseIkiTelebe  + "\n 2. Bal 1 keçid balından böyük vəya bərabərdir mi? " + birinciKecidMuqayise + " \n 3. Bal 2 keçid balından böyükdür mü? " + ikinciKecidMuqayise + "\n 4. İki bal bir-birinə bərabərdir mi? " + ikiBalBeraber + "\n 5. İki bal fərqlidir mi? " + ikiBalFergli);
 
 
-
+        System.out.println("\n ----- Tapşırıq 2-nin cavabı -----");
         //Tapshiriq - 2
         int maas = 5000;
         int minMaas = 3000;
@@ -72,19 +75,25 @@ public class lesson_03_08_Homework {
         double endirimliQiymet = 79.99;
 
         // 1. maas minMaas-dan boyukdurmu?
-        System.out.println(maas > minMaas);                    // ?
+        boolean muqayiseMinMaas= maas > minMaas;
+        System.out.println(" Maaş minumum maaşdan böyükdür mü? : " + muqayiseMinMaas);                    // ?
 
         // 2. maas maxMaas-a barbeberdir?
-        System.out.println(maas == maxMaas);                   // ?
+        boolean maxMaasberaber = maas == maxMaas;
+        System.out.println(" Maaş maksimum maaşa bərabərdir?: " + maxMaasberaber);                   // ?
 
         // 3. qiymet endirimliQiymet-den boyukdurmu?
-        System.out.println(qiymet > endirimliQiymet);          // ?
+        boolean endirimQiymetiMuqayise = qiymet > endirimMigdari;
+        System.out.println(" Qiymət endirimli qiymətdən böyükdür mü?: " + endirimQiymetiMuqayise);          // ?
 
         // 4. maas minMaas ile maxMaas arasindadirmi?
-        System.out.println(maas >= minMaas && maas <= maxMaas);// ?
+        boolean arasindaMinmaasMaxmaas = maas >= minMaas && maas <= maxMaas;
+        System.out.println(" Maaş minumum ilə maksimum arasındadır mı?: " + arasindaMinmaasMaxmaas);// ?
 
         // 5. endirimliQiymet qiymet-den az VE ya barbeberdir?
-        System.out.println(endirimliQiymet <= qiymet);         // ?
+        boolean endirimliQiymetVeya= endirimliQiymet <qiymet || endirimliQiymet==qiymet;
+        System.out.println(" Endirimli qiymət qiyətdən az vəya bərabərdir mi?: " + endirimliQiymetVeya);         // ?
+
 
 
 
