@@ -76,6 +76,7 @@ public class lesson_03_08_Homework {
 
 
         System.out.println("\n ----- Tapşırıq 2-nin cavabı -----");
+
         //Tapshiriq - 2
         int maas = 5000;
         int minMaas = 3000;
@@ -177,6 +178,5 @@ public class lesson_03_08_Homework {
         System.out.println(b);        // men dushunirem: ?
         System.out.println(c++ + b);  // men dushunirem: ?
         System.out.println(c);        // men dushunirem: ?
-
     }
 }
