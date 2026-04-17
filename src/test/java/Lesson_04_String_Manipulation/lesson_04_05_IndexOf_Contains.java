@@ -7,7 +7,6 @@ public class lesson_04_05_IndexOf_Contains {
         String example = "STLC testing life";
 
         //indexOf - movqe qaytarir, tapilmasa -1
-
         System.out.println(example.indexOf('C'));// indexsi qaytarir 4
         System.out.println(example.indexOf("STLC"));// indexsi qaytarir 1
         System.out.println(example.indexOf("testing"));// indexsi qaytarir 6

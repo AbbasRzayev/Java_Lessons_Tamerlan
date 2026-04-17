@@ -3,7 +3,7 @@ package Lesson_04_String_Manipulation;
 public class lesson_04_02_UpperCase_LowerCase {
     public static void main(String[] args) {
         //! 2. Böyük/Kiçik hərf - toUpperCase() / toLowerCase()
-        //Herf Registerini deyishmek:
+        // Herf Registerini deyishmek:
 
         String example = "Qa Automation";
 

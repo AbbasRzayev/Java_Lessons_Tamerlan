@@ -6,7 +6,6 @@ public class lesson_04_04_Substring {
         // Metnin mueyyen bir parcasini kesib goturur.
 
         String nameSurname = "Tamerlan Huseynov";
-
         System.out.println(nameSurname.substring(9));
 
         //substring(bashlagic,son)
@@ -17,6 +16,5 @@ public class lesson_04_04_Substring {
 
         //Son uzunluqdan boyuk ola bilmez
         System.out.println(nameSurname.substring(0,50)); // Xeta
-
     }
 }
