@@ -103,6 +103,7 @@ public class lesson_03_08_Homework {
         boolean endirimliQiymetVeya= endirimliQiymet <qiymet || endirimliQiymet==qiymet;
         System.out.println(" Endirimli qiymət qiyətdən az vəya bərabərdir mi?: " + endirimliQiymetVeya);         // ?
 
+        System.out.println("\n ----- Tapşırıq 2-nin cavabı -----");
 //        3.Logical
         //Tapshiriq - 1
 //        Sayta giriş şərtlərini yoxla:
@@ -160,23 +161,23 @@ public class lesson_03_08_Homework {
         //Tapshiriq 1
         int a = 10;
         //run etmeden cavabi yaz
-        System.out.println(++a);   // cavab: ?
-        System.out.println(a++);   // cavab: ?
-        System.out.println(a);     // cavab: ?
-        System.out.println(--a);   // cavab: ?
-        System.out.println(a--);   // cavab: ?
-        System.out.println(a);     // cavab: ?
+        System.out.println(++a);   // cavab: 11?
+        System.out.println(a++);   // cavab: 11?
+        System.out.println(a);     // cavab: 12?
+        System.out.println(--a);   // cavab: 11?
+        System.out.println(a--);   // cavab: 11?
+        System.out.println(a);     // cavab: 10?
 
         //Tapshiriq 2
         int c = 3;
         int b = 7;
 
-        System.out.println(++c);      // men dushunirem: ?
-        System.out.println(b--);      // men dushunirem: ?
-        System.out.println(c);        // men dushunirem: ?
-        System.out.println(b);        // men dushunirem: ?
-        System.out.println(c++ + b);  // men dushunirem: ?
-        System.out.println(c);        // men dushunirem: ?
+        System.out.println(++c);      // men dushunirem: 4?
+        System.out.println(b--);      // men dushunirem: 7?
+        System.out.println(c);        // men dushunirem: 4?
+        System.out.println(b);        // men dushunirem: 6?
+        System.out.println(c++ + b);  // men dushunirem: 10?
+        System.out.println(c);        // men dushunirem: 5?
 
     }
 }
