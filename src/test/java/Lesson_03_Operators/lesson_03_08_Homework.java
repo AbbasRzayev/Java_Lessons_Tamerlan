@@ -4,7 +4,7 @@ public class lesson_03_08_Homework {
     public static void main(String[] args) {
 
 //        1.ArifmetikTest:
-        System.out.println("----- Arifmetik tapşırığın cavabı -----");
+        System.out.println("----- 1.ArifmetikTest tapşırığın cavabı -----");
 
         int mehsulQiymeti = 120;
         int endirimFaizi = 20;
@@ -76,6 +76,7 @@ public class lesson_03_08_Homework {
 
 
         System.out.println("\n ----- Tapşırıq 2-nin cavabı -----");
+
         //Tapshiriq - 2
         int maas = 5000;
         int minMaas = 3000;
@@ -103,8 +104,9 @@ public class lesson_03_08_Homework {
         boolean endirimliQiymetVeya= endirimliQiymet <qiymet || endirimliQiymet==qiymet;
         System.out.println(" Endirimli qiymət qiyətdən az vəya bərabərdir mi?: " + endirimliQiymetVeya);         // ?
 
-        System.out.println("\n ----- Tapşırıq 2-nin cavabı -----");
+
 //        3.Logical
+        System.out.println("3.Logical cavabı");
         //Tapshiriq - 1
 //        Sayta giriş şərtlərini yoxla:
         boolean istifadeciVar = true;
@@ -114,10 +116,20 @@ public class lesson_03_08_Homework {
 
         // Netice her zaman true ya false olacaq — ekrana yaz
         // 1. Giris ucun: istifadeciVar VE sifreDogrudu
+        boolean girisUcun =  istifadeciVar && sifreDogrudu;
+        System.out.println(girisUcun);
         // 2. Tam giris ucun: (istifadeciVar VE sifreDogrudu) VE hesabAktivdir
+        boolean tamGiris = istifadeciVar && sifreDogrudu && hesabAktivdir;
+        System.out.println(tamGiris);
         // 3. Admin paneli ucun: adminDir VE hesabAktivdir
+        boolean admin = adminDir && hesabAktivdir;
+        System.out.println(admin);
         // 4. sifre yanlishdir — NOT ile yoxla
+        boolean yanlisSifre = ! sifreDogrudu;
+        System.out.println(yanlisSifre);
         // 5. adminDir deyil VE YA sifreDogrudu — netice?
+        boolean netice = ! adminDir || sifreDogrudu;
+
 
         //Tapshiriq - 2
         int yas = 20;
@@ -144,14 +156,20 @@ public class lesson_03_08_Homework {
 
 //        4.Assignment
 //        Oyunçunun xallarını idarə et:
+        System.out.println("Assigment 4");
 
         int xal = 100;
         // Her addimdan sonra xali ekrana yaz
-        // 1. xal += 25  → xal = ?
-        // 2. xal -= 10  → xal = ?
-        // 3. xal *= 2   → xal = ?
-        // 4. xal /= 3   → xal = ?
-        // 5. xal %= 7   → xal = ?
+        xal += 25; // 125
+        System.out.println(xal);
+        xal -= 10; // 115
+        System.out.println(xal);
+        xal *= 2; // 230
+        System.out.println(xal);
+        xal /= 3; // 115
+        System.out.println(xal);
+        xal %= 7; // 6
+        System.out.println(xal);
 
 
 
