@@ -7,8 +7,6 @@ public class lesson_04_HomeWork_1 {
     public static void main(String[] args) {
         //!HOMEWORK 1 — String Manipulation
 
-
-
 //        1. Bölmə: Length (Uzunluq) — .length()
 //
 //        1. "Java Developer" mətninin uzunluğunu bir int dəyişəninə mənimsədin və çap edin.
