@@ -79,7 +79,7 @@ public class lesson_04_HomeWork_1 {
 //        4. Mətnin toUpperCase() metodundan sonrakı uzunluğunu tapın (uzunluq dəyişirmi?).
         String text = "tamerlan";
         System.out.println(text.toUpperCase() + " adın uzunluğu: " + text.length());
-//       ? 5. "DATABASE" mətnini kiçik hərflərə çevirib, sonra həmin mətndə "a" hərfinin olub-olmadığını contains ilə yoxlayın.
+//        5. "DATABASE" mətnini kiçik hərflərə çevirib, sonra həmin mətndə "a" hərfinin olub-olmadığını contains ilə yoxlayın.
         String database = "DATABASE";
         String kicikData = database.toLowerCase();
         System.out.println(kicikData.indexOf('a'));
@@ -89,7 +89,7 @@ public class lesson_04_HomeWork_1 {
 //       7. İstifadəçidən gələn adın ilk hərfini substring ilə götürün və onu böyük hərfə çevirin.
         String yeniAd = "novruz".substring(0,1);
         System.out.println(yeniAd.toUpperCase());
-//       ? 8. "JAVA" mətnini kiçik hərflərə çevirin və sonra həmin yeni mətndə "j" hərfinin olub-olmadığını yoxlayın.
+//        8. "JAVA" mətnini kiçik hərflərə çevirin və sonra həmin yeni mətndə "j" hərfinin olub-olmadığını yoxlayın.
         String javaMetni = "JAVA";
         String kicik = javaMetni.toUpperCase();
         System.out.println(kicik.indexOf('j'));
