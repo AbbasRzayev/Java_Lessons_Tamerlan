@@ -181,8 +181,6 @@ public class lesson_04_HomeWork_1 {
         String baku = "Baku-2024";
         System.out.println(baku.substring(0,5));
 
-
-
 //        5. Bölmə: IndexOf & Contains — .indexOf(), .contains()
 
 //        1. "I love Java" cümləsində "Java" sözünün hansı indeksdən başladığını tapın.
