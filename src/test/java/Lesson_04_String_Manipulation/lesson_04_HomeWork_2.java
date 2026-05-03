@@ -2,7 +2,6 @@ package Lesson_04_String_Manipulation;
 
 public class lesson_04_HomeWork_2 {
     public static void main(String[] args) {
-
 //        1. startsWith() və endsWith()
 //        "Bakı" sözünün "B" hərfi ilə başlayıb-başlamadığını yoxlayın.
 //        "kitab.jpg" mətninin ".jpg" ilə bitib-bitmədiyini yoxlayın.

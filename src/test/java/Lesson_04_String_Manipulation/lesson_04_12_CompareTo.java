@@ -17,6 +17,5 @@ public class lesson_04_12_CompareTo {
         System.out.println(b.compareTo(a));  //musbet - b a-dan sonradir
         System.out.println(a.compareTo(a));   //0 - eynidir
         System.out.println(b.compareTo(b));   //0 - eynidir
-
     }
 }
