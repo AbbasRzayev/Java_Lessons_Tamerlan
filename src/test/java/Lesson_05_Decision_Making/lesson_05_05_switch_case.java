@@ -90,8 +90,5 @@ public class lesson_05_05_switch_case {
             default:
                 System.out.println("Namelum rol");
         }
-
-
-
     }
 }
