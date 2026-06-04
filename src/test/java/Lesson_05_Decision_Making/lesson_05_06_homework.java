@@ -235,7 +235,7 @@ public class lesson_05_06_homework {
             System.out.println("Ədəd limitdən kənardır.");
         } */
 
- //       19. Şifrə və Təkrar şifrə bərabərliyi:  Konsoldan `password1` və `password2` adlı iki String alın. Əgər hər iki şifrə eynidirsə və şifrənin uzunluğu 5-dən böyükdürsə ekrana "Şifrə yeniləndi", əks halda "Şifrələr uyğun deyil və ya çox qısadır" yazın.
+        //       19. Şifrə və Təkrar şifrə bərabərliyi:  Konsoldan `password1` və `password2` adlı iki String alın. Əgər hər iki şifrə eynidirsə və şifrənin uzunluğu 5-dən böyükdürsə ekrana "Şifrə yeniləndi", əks halda "Şifrələr uyğun deyil və ya çox qısadır" yazın.
         /* Scanner sc = new Scanner(System.in);
         System.out.println("Password 1 daxil edin ");
         String password = sc.nextLine();
@@ -394,17 +394,17 @@ public class lesson_05_06_homework {
             case 'A':
                 System.out.println("Əla");
                 break;
-                case 'B':
-                    System.out.println("Yaxşı");
-                    break;
-                    case 'C':
-                        System.out.println("Kafi");
-                        break;
-                        case 'F':
-                            System.out.println("Kəsildiniz");
-                            break;
-                            default:
-                                System.out.println("Yanlış hərf");
+            case 'B':
+                System.out.println("Yaxşı");
+                break;
+            case 'C':
+                System.out.println("Kafi");
+                break;
+            case 'F':
+                System.out.println("Kəsildiniz");
+                break;
+            default:
+                System.out.println("Yanlış hərf");
         }
     }
 }
