@@ -389,22 +389,22 @@ public class lesson_05_06_homework {
 //    * `default` -> `"Yanlış hərf"`.
         Scanner sc = new Scanner(System.in);
         System.out.println("'A', 'B', 'C', 'D', 'F' hərflərindən birini yazın");
-        char herf = sc.next().charAt(0);
+        char herf = sc.nextLine().trim().toUpperCase().charAt(0);
         switch (herf) {
             case 'A':
-                System.out.println("Əla");
+                System.out.println(herf + " Əla ");
                 break;
             case 'B':
-                System.out.println("Yaxşı");
+                System.out.println(herf + " Yaxşı ");
                 break;
             case 'C':
-                System.out.println("Kafi");
+                System.out.println(herf + " Kafi ");
                 break;
             case 'F':
-                System.out.println("Kəsildiniz");
+                System.out.println(herf + " Kəsildiniz ");
                 break;
             default:
-                System.out.println("Yanlış hərf");
+                System.out.println(herf + " Yanlış hərf ");
         }
     }
 }
