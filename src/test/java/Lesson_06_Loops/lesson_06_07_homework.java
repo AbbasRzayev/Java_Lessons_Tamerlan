@@ -44,10 +44,36 @@ public class lesson_06_07_homework {
             System.out.println("1-dən " + limit + "-ə qədər 3-ə və ya 5-ə tam bölünən ədədlərin cəmi: " + cem);
         } */
 
-//    ??  4. **Şifrə Təhlükəsizlik Validasiyası:** Konsoldan bir şifrə daxil edilməsini istəyin. `for` dövrü ilə şifrənin hər bir simvolunu tək-tək yoxlayın. Əgər şifrədə ən azı bir rəqəm varsa ekrana `"Şifrə təhlükəsizdir"`, yoxdursa `"Şifrədə rəqəm olmalıdır"` yazın.
+//      4. **Şifrə Təhlükəsizlik Validasiyası:** Konsoldan bir şifrə daxil edilməsini istəyin. `for` dövrü ilə şifrənin hər bir simvolunu tək-tək yoxlayın. Əgər şifrədə ən azı bir rəqəm varsa ekrana `"Şifrə təhlükəsizdir"`, yoxdursa `"Şifrədə rəqəm olmalıdır"` yazın.
+        /* Scanner input = new Scanner(System.in);
+        System.out.println("Şifrə daxil edin: ");
+        String password = input.nextLine();
+        boolean reqemVar = false;
+        for (int i = 0; i < password.length(); i++) {
+            char simvol = password.charAt(i);
+            if (Character.isDigit(simvol)) {
+                reqemVar = true;
+                break;
+            }
+        }if (reqemVar) {
+                System.out.println("Şifrə təhlükəsizdir");
+            } else {
+                System.out.println("Şifrədə rəqəm olmalıdır");
+            }
+        }
+    } */
 
-//    ??  5. **Tərs Mətn (Reverse String):** Konsoldan daxil edilən hər hansı bir sözü `for` dövrünü geriyə doğru (`i--`) işlədərək tərsinə çevirin və konsola yazdırın.
-
+//      5. **Tərs Mətn (Reverse String):** Konsoldan daxil edilən hər hansı bir sözü `for` dövrünü geriyə doğru (`i--`) işlədərək tərsinə çevirin və konsola yazdırın.
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Soz daxil edin: ");
+        String soz = sc.nextLine();
+        String terssoz = "";
+        for (int i = soz.length() - 1; i >= 0; i--) {
+            terssoz += soz.charAt(i);
+        }
+        System.out.println("Sözün tərsi: " + terssoz);
+    }
+}
 //        lesson_06_02_while_loop (4 Tapşırıq)
 //        6. **Düzgün Şifrə Tapılana Qədər:** Sistemdə bir gizli şifrə təyin edin (məs: `"QA2026"`). `while` dövrü ilə istifadəçidən şifrə istəyin. İstifadəçi düzgün şifrəni daxil edənə qədər proqram dayanmadan yenidən şifrə istəsin. Düzgün yazanda `"Sistemə daxil olundu"` desin.
         /* Scanner sc = new Scanner(System.in);
@@ -347,7 +373,7 @@ char herf = soz.charAt(i);
 } */
 
 //    25. **Ulduzlarla Düzbucaqlı:** Konsoldan sətir (`int row`) və sütun (`int col`) sayını alın. İç-içə `for` dövrləri vasitəsilə konsola ulduzlardan (`*`) ibarət düzbucaqlı bir matrix forması çap edin.
-        Scanner sc = new Scanner(System.in);
+        /* Scanner sc = new Scanner(System.in);
         System.out.print("Sətir sayını daxil edin (row): ");
         int row = sc.nextInt();
         System.out.print("Sütun sayını daxil edin (col): ");
@@ -361,5 +387,5 @@ char herf = soz.charAt(i);
 
         }
     }
-}
+} */
 
