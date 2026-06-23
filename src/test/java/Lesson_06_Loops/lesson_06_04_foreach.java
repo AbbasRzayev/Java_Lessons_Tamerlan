@@ -3,7 +3,7 @@ package Lesson_06_Loops;
 public class lesson_06_04_foreach {
     public static void main(String[] args) {
         //! Maasivler (array) ve Kolleksiyalar daxildeki elementleri index sirasi ile bashda
-        //! sona qeder oxumaq ucun istidade olunan en tehlukeli ve qisa dovr novudur
+        //! sona qeder oxumaq ucun istidade olunan en tehlukesiz ve qisa dovr novudur
         //!Indeks saygacina (i++) ehtiyac qalmir
 
         //for(dataTipi element : massivinAdi)

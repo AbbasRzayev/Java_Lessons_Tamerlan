@@ -15,12 +15,13 @@ public class lesson_06_07_homework {
 
 //        lesson_06_01_for (5 Tapşırıq)
 //        1. **Sadə Ədəd Çapı (Ən Sadə):** Konsoldan bir limit ədədi (`int limit`) daxil edin. `for` dövrü vasitəsilə 1-den başlayaraq həmin limitə qədər olan bütün ədədləri yan-yana ekrana çap edin.
-        /* Scanner sc = new Scanner(System.in);
-        System.out.println("Ədəd daxil edin: ");
-        int n = sc.nextInt();
-        for (int i = 1; i <= n; i++) {
-            System.out.print(i + "");
-        } */
+//        Scanner sc1 = new Scanner(System.in);
+//        System.out.println("Ədəd daxil edin: ");
+//        int n = sc1.nextInt();
+//        for (int i = 1; i <= n; i++) {
+//            System.out.print(i + "");
+//        }
+
 
 //        2. **Ad Təkrarı (Ən Sadə):** Konsoldan istifadəçinin adını (String) və bir təkrar sayını (`int count`) alın. `for` dövrü ilə həmin adı daxil edilən sayı qədər ekrana alt-alta yazdırın.
         /* Scanner sc = new Scanner(System.in);
@@ -64,16 +65,16 @@ public class lesson_06_07_homework {
     } */
 
 //      5. **Tərs Mətn (Reverse String):** Konsoldan daxil edilən hər hansı bir sözü `for` dövrünü geriyə doğru (`i--`) işlədərək tərsinə çevirin və konsola yazdırın.
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Soz daxil edin: ");
-        String soz = sc.nextLine();
-        String terssoz = "";
-        for (int i = soz.length() - 1; i >= 0; i--) {
-            terssoz += soz.charAt(i);
-        }
-        System.out.println("Sözün tərsi: " + terssoz);
-    }
-}
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Soz daxil edin: ");
+//        String soz = sc.nextLine();
+//        String terssoz = "";
+//        for (int i = soz.length() - 1; i >= 0; i--) {
+//            terssoz += soz.charAt(i);
+//        }
+//        System.out.println("Sözün tərsi: " + terssoz);
+//    }
+//}
 //        lesson_06_02_while_loop (4 Tapşırıq)
 //        6. **Düzgün Şifrə Tapılana Qədər:** Sistemdə bir gizli şifrə təyin edin (məs: `"QA2026"`). `while` dövrü ilə istifadəçidən şifrə istəyin. İstifadəçi düzgün şifrəni daxil edənə qədər proqram dayanmadan yenidən şifrə istəsin. Düzgün yazanda `"Sistemə daxil olundu"` desin.
         /* Scanner sc = new Scanner(System.in);
@@ -373,19 +374,17 @@ char herf = soz.charAt(i);
 } */
 
 //    25. **Ulduzlarla Düzbucaqlı:** Konsoldan sətir (`int row`) və sütun (`int col`) sayını alın. İç-içə `for` dövrləri vasitəsilə konsola ulduzlardan (`*`) ibarət düzbucaqlı bir matrix forması çap edin.
-        /* Scanner sc = new Scanner(System.in);
-        System.out.print("Sətir sayını daxil edin (row): ");
-        int row = sc.nextInt();
-        System.out.print("Sütun sayını daxil edin (col): ");
-        int col = sc.nextInt();
-        System.out.println(" Nticə' ");
-        for (int i = 0; i < row; i++) {
-            for (int j = 0; j < col; j++) {
-                System.out.print("* ");
-            }
-            System.out.println();
-
-        }
-    }
-} */
-
+//        Scanner sc = new Scanner(System.in);
+//        System.out.print("Sətir sayını daxil edin (row): ");
+//        int row = sc.nextInt();
+//        System.out.print("Sütun sayını daxil edin (col): ");
+//        int col = sc.nextInt();
+//        System.out.println(" Nticə' ");
+//        for (int i = 0; i < row; i++) {
+//            for (int j = 0; j < col; j++) {
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
+  }
+}
